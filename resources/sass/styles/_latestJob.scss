@@ -1,0 +1,318 @@
+@charset "UTF-8";
+// =======================================================
+// latestJob
+// =======================================================
+.latestJob {
+    display: none;
+    padding: 5px calc(100vw / 750 * 40) 15px;
+    background: $baseBgColor;
+    @include minWidthXs {
+        padding: 16px 0 20px;
+    }
+}
+
+.latestJobInner {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: calc(100% - 24px);
+    max-width: $contentWidth;
+    margin: 0 auto;
+    @include xs {
+        position: relative;
+        width: 100%;
+    }
+}
+
+.latestJobTitle {
+    width: 200px;
+
+    .ttl-en{
+        font-size: 26px;
+        line-height: 36px;
+        display: block;
+        color: #777777;
+        font-weight: 600;
+        font-style: italic;
+    }
+
+    .ttl-ja{
+        font-size: 16px;
+        line-height: 24px;
+        color: #1B1D22;
+        font-weight: bold;
+        display: block;
+        margin-top: -5px;
+    }
+
+    @include xs(){
+        width: 100%;
+        margin-bottom: 10px;
+
+        .ttl-en{
+            font-size: 18px;
+            line-height: 28px;
+            display: inline-block;
+        }
+
+        .ttl-ja{
+            font-size: 13px;
+            line-height: 19px;
+            display: inline-block;
+        }
+    }
+
+}
+
+.latestJobBox {
+    //width: calc(100% - (70px + 20px));
+    width: 100%;
+    overflow: hidden;
+    @include minWidthXs {
+        width: calc(100% - 355px);
+        margin-right: 68px;
+    }
+}
+
+.latestJobItem, .notJob {
+    font-size: rem(13);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    @include minWidthXs {
+        font-size: rem(14);
+    }
+
+    a {
+        color: $bgBaseTextColor;
+        transition: opacity .3s;
+        @include minWidthXs {
+            &:hover {
+                opacity: .5;
+            }
+        }
+    }
+}
+
+.latestJobDate {
+    display: block;
+    font-size: 16px;
+    line-height: 26px;
+
+    @include xs(){
+        font-size: 13px;
+        line-height: 18px;
+        margin-bottom: 5px;
+    }
+}
+
+.latestJobTag{
+    display: block;
+    font-size: 16px;
+    line-height: 26px;
+
+    @include xs(){
+        font-size: 13px;
+        line-height: 18px;
+    }
+}
+
+.latestJobMoreButton {
+    width: 86px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #363A44;
+    border: 1px solid #777777;
+    color: #fff;
+    font-family: "Poppins";
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 600;
+    font-style: italic;
+    text-transform: uppercase;
+    text-align: center;
+    transition: .3s;
+    margin-top: 7px;
+    position: relative;
+    z-index: 2;
+
+    &:after{
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 100%;
+        background: #FEC400;
+        top: 0;
+        left: 0;
+        transition: .3s;
+        z-index: -1;
+    }
+
+    &:hover{
+        color: #1B1D22;
+
+        &:after{
+            width: 100%;
+        }
+    }
+
+    @include xs(){
+        margin: 14px auto 0;
+        width: 70px;
+        height: 24px;
+        font-size: 14px;
+    }
+
+}
+
+/*============================
+  #newInfoBox
+  スピードグレード版
+  ============================*/
+#latestJobBox {
+    max-width: $contentWidth;
+    margin: 0 auto 20px;
+    padding: 12px 0 10px 0;
+    @include xs {
+        padding: 10px 10px 20px;
+    }
+
+    .latestJobTitle { //汎用タイトル 画像左寄せ版
+        width: 200px;
+
+        &:before {
+            content: "新着のお仕事情報";
+            float: left;
+            font-size: 1.5rem;
+            line-height: 1.5;
+            overflow: hidden;
+            height: auto;
+            font-weight: 600;
+            color: $baseColor;
+            @include xs {
+                font-size: 1.3rem;
+            }
+        }
+
+        &:after {
+            content: "";
+            float: left;
+            font-size: 1.1rem;
+            line-height: 2;
+            overflow: hidden;
+            height: auto;
+            margin: 12px 0 0 20px;
+            font-weight: 100;
+        }
+
+        @include xs {
+            margin: 0;
+            padding: 20px 0 10px 0;
+        }
+    }
+
+
+    ul {
+        margin-bottom: 30px;
+        @include xs {
+            height: inherit;
+            margin-bottom: 20px;
+        }
+
+        li {
+            border-bottom: 1px solid $baseColor;
+            @include xs {
+                border-bottom: 1px solid $baseColor;
+                padding: 20px 0 20px 0;
+            }
+
+            a {
+                display: block;
+                padding: 10px 0 10px 0; //1行ごとのパディング
+                &:hover {
+                    opacity: .7;
+                }
+
+                @include xs {
+                    padding: 0 20px 0 5px;
+                    letter-spacing: normal;
+                    background-size: 6px 12px;
+                    background: none;
+                }
+
+                div {
+                    display: inline-block;
+                    letter-spacing: normal;
+                    vertical-align: middle;
+                    @include xs {
+                        margin-right: 0;
+                    }
+                }
+
+                .newInfoDate {
+                    font-size: $fontSizeSmall;
+                    color: $baseTextColor;
+                    padding: 0;
+                    width: 90px;
+                    line-height: 2;
+
+                    @include xs {
+                        width: 100%;
+                    }
+                }
+
+                .newInfoTag {
+                    color: $baseTextColor;
+                    width: 75%;
+                    text-align: left;
+                    font-size: $fontSizeNomal;
+                    padding: 0 15px;
+                    @include xs {
+                        font-size: $fontSizeSmall; //13px
+                        padding: 0;
+                        width: 100%;
+                        text-align: left;
+                    }
+                }
+
+                .newInfoDetail {
+                    color: $baseTextColor;
+                    font-size: $fontSizeNomal;
+                    padding: 0 15px 0 93px;
+                    width: 100%;
+                    word-break: break-all; //word-breakなし
+
+                    //省略設定
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+
+                    @include xs {
+                        padding: 0;
+                        font-size: $fontSizeSmall;
+                        white-space: normal;
+                    }
+
+                    span {
+                        display: block;
+                        padding: 0 15px;
+                        @include xs {
+                            padding: 0;
+                        }
+                    }
+                }
+            }
+
+            //a
+        }
+
+        //li
+    }
+
+    //ul
+}
+
+//newInfoBox

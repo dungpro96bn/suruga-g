@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+@import "../_vars.scss";
+@import "../_setting.scss";
+@import "../_placeHolder.scss";
+
+.pop{
+    font-family: 'Poppins';
+}
+
+.js-fadein {
+    opacity: 0;
+    transform: translate(0, 20px);
+    transition-property: opacity, transform;
+    transition-duration: 1s;
+}
+
+.scroll-in {
+    opacity: 1;
+    transform: translate(0, 0);
+}
