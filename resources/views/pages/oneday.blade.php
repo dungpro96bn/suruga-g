@@ -22,8 +22,8 @@
                 <div class="main-banner">
                     <div class="inner">
                         <h1 class="heading-main">
-                            <span class="ttl-en pop">WELFARE</span>
-                            <span class="ttl-ja">福利厚生</span>
+                            <span class="ttl-en pop">ONEDAY</span>
+                            <span class="ttl-ja">社員の1日</span>
                         </h1>
                     </div>
                 </div>

@@ -215,6 +215,9 @@
     text-align: center;
     margin-bottom: 16px;
 }
+#welFare-page .welfare-block .welfareItem-info .ttl.ttl-small{
+    font-size: 18px;
+}
 #welFare-page .welfare-block .welfareItem-info .text{
     font-size: 16px;
     line-height: 30px;
@@ -325,6 +328,9 @@
         font-size: 15px;
         line-height: 18px;
         margin-bottom: 16px;
+    }
+    #welFare-page .welfare-block .welfareItem-info .ttl.ttl-small{
+        font-size: 14px;
     }
     #welFare-page .welfare-block .welfareItem-info .icon{
         margin-bottom: 17px;

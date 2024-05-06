@@ -195,7 +195,7 @@
                                     <source media="(min-width: 768px)" srcset="{{asset('images/contentBox/welfare/welfare_03_01_icon_pc.png')}} 2x">
                                     <img class="sizes" src="{{asset('images/contentBox/welfare/welfare_03_01_icon_pc.png')}}" alt="">
                                 </picture>
-                                <p class="ttl">各種表彰制度<br/>
+                                <p class="ttl ttl-small">各種表彰制度<br/>
                                     特殊奨励金・社長賞・永年勤続表彰等</p>
                                 <p class="text">業務上の目標達成、改善の成果を評価された者、業務外で貢献のあった者および永年勤続社員に賞が贈られます。</p>
                             </li>
