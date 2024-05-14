@@ -35,14 +35,14 @@
                                 <picture class="image">
                                     <source media="(max-width: 767px)" srcset="{{asset('images/contentBox/oneday/oneday_image_01_sp.png')}} 2x">
                                     <source media="(min-width: 768px)" srcset="{{asset('images/contentBox/oneday/oneday_image_01_pc.png')}} 2x">
-                                    <img class="sizes" src="{{asset('images/contentBox/oneday/oneday_image_01_pc.png')}}" alt="">
+                                    <img class="sizes" src="{{asset('images/contentBox/oneday/oneday_image_01_pc.png')}}" alt="製造管理者の写真">
                                 </picture>
                             </li>
                             <li class="onedayImage-item">
                                 <picture class="image">
                                     <source media="(max-width: 767px)" srcset="{{asset('images/contentBox/oneday/oneday_image_02_sp.png')}} 2x">
                                     <source media="(min-width: 768px)" srcset="{{asset('images/contentBox/oneday/oneday_image_02_pc.png')}} 2x">
-                                    <img class="sizes" src="{{asset('images/contentBox/oneday/oneday_image_02_pc.png')}}" alt="">
+                                    <img class="sizes" src="{{asset('images/contentBox/oneday/oneday_image_02_pc.png')}}" alt="在庫管理者の写真">
                                 </picture>
                             </li>
                         </ul>
@@ -88,10 +88,10 @@
                             <span class="ttl-ja">動画で知るサクセスストーリー</span>
                         </h2>
                         <div class="movieContent js-fadein">
-                            <picture class="image">
-                                <source srcset="{{asset('images/contentBox/welfare/welfare_image04_pc.png')}} 2x">
-                                <img class="sizes" src="{{asset('images/contentBox/welfare/welfare_image04_pc.png')}}" alt="">
-                            </picture>
+                            <div class="image">
+                                <script type="text/javascript">var Eviry=Eviry||{};Eviry.Player||(Eviry.Player={});Eviry.Player.embedkey="EK13UV_3aOOLdgOY4KjykPVFZiVuDdTtg95N5w2xTbhYw_0S6XcsZdG3Hpp5FTCiQbo0Uc8rxwJwI9W0-_zJoxy2PXD94twdrLkIRe-mdcTPh8BKktKLdS7Fw..";</script>
+                                <script type="text/javascript" src="https://d1euehvbqdc1n9.cloudfront.net/001/eviry/js/eviry.player.min.js"></script>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -105,14 +105,14 @@
                                 <p class="name">松田 裕太<span>（2012年入社）</span></p>
                                 <p class="name-en pop">Yuta Matsuda</p>
                                 <p class="t2">駿河プラットフォーム&nbsp;&nbsp;IM関西工場</p>
-                                <p class="text">入社11年目。ものづくりが好きで機械オペレーターとして入社しました。今ではマネジャーとして現場管理を担当。様々な課題にメンバーと挑戦し、やりがいのある日々を過ごしています。</p>
+                                <p class="text">入社11年目。ものづくりが好きで機械オペレーターとして入社しました。今ではマネージャーとして現場管理を担当。様々な課題にメンバーと挑戦し、やりがいのある日々を過ごしています。</p>
                             </div>
                         </div>
                         <div class="bannerImage">
                             <picture class="image">
                                 <source media="(max-width: 767px)" srcset="{{asset('images/contentBox/oneday/oneday_01_image01_sp.png')}} 2x">
                                 <source media="(min-width: 768px)" srcset="{{asset('images/contentBox/oneday/oneday_01_image01_pc.png')}} 2x">
-                                <img class="sizes" src="{{asset('images/contentBox/oneday/oneday_01_image01_pc.png')}}" alt="">
+                                <img class="sizes" src="{{asset('images/contentBox/oneday/oneday_01_image01_pc.png')}}" alt="製造管理者の写真">
                             </picture>
                         </div>
                     </div>
@@ -138,7 +138,7 @@
                                         <picture class="image">
                                             <source media="(max-width: 767px)" srcset="{{asset('images/contentBox/oneday/oneday_01_image02_sp.png')}} 2x">
                                             <source media="(min-width: 768px)" srcset="{{asset('images/contentBox/oneday/oneday_01_image02_pc.png')}} 2x">
-                                            <img class="sizes" src="{{asset('images/contentBox/oneday/oneday_01_image02_pc.png')}}" alt="">
+                                            <img class="sizes" src="{{asset('images/contentBox/oneday/oneday_01_image02_pc.png')}}" alt="管理者とメンバーのミーティング">
                                         </picture>
                                     </div>
                                 </li>
@@ -155,18 +155,18 @@
                                         <picture class="image">
                                             <source media="(max-width: 767px)" srcset="{{asset('images/contentBox/oneday/oneday_01_image03_sp.png')}} 2x">
                                             <source media="(min-width: 768px)" srcset="{{asset('images/contentBox/oneday/oneday_01_image03_pc.png')}} 2x">
-                                            <img class="sizes" src="{{asset('images/contentBox/oneday/oneday_01_image03_pc.png')}}" alt="">
+                                            <img class="sizes" src="{{asset('images/contentBox/oneday/oneday_01_image03_pc.png')}}" alt="上司とのミーティング写真">
                                         </picture>
                                     </div>
                                 </li>
                                 <li class="oneday-item">
                                     <div class="onedayItem-info js-fadein">
                                         <p class="title"><span class="number pop">15:00</span>技術担当者と打ち合わせ</p>
-                                        <p class="text">新しい工具の選定・方法の見直し、改善活動に繋がる打ち合わせをします。</p>
+                                        <p class="text">新しい工具の選定・方法の見直し、改善活動につながる打ち合わせをします。</p>
                                         <picture class="image">
                                             <source media="(max-width: 767px)" srcset="{{asset('images/contentBox/oneday/oneday_01_image04_sp.png')}} 2x">
                                             <source media="(min-width: 768px)" srcset="{{asset('images/contentBox/oneday/oneday_01_image04_pc.png')}} 2x">
-                                            <img class="sizes" src="{{asset('images/contentBox/oneday/oneday_01_image04_pc.png')}}" alt="">
+                                            <img class="sizes" src="{{asset('images/contentBox/oneday/oneday_01_image04_pc.png')}}" alt="技術者とのミーティングの写真">
                                         </picture>
                                     </div>
                                 </li>
@@ -204,7 +204,7 @@
                             <picture class="image">
                                 <source media="(max-width: 767px)" srcset="{{asset('images/contentBox/oneday/oneday_02_image01_sp.png')}} 2x">
                                 <source media="(min-width: 768px)" srcset="{{asset('images/contentBox/oneday/oneday_02_image01_pc.png')}} 2x">
-                                <img class="sizes" src="{{asset('images/contentBox/oneday/oneday_02_image01_pc.png')}}" alt="">
+                                <img class="sizes" src="{{asset('images/contentBox/oneday/oneday_02_image01_pc.png')}}" alt="在庫管理者の写真">
                             </picture>
                         </div>
                     </div>
@@ -224,7 +224,7 @@
                                         <picture class="image">
                                             <source media="(max-width: 767px)" srcset="{{asset('images/contentBox/oneday/oneday_02_image02_sp.png')}} 2x">
                                             <source media="(min-width: 768px)" srcset="{{asset('images/contentBox/oneday/oneday_02_image02_pc.png')}} 2x">
-                                            <img class="sizes" src="{{asset('images/contentBox/oneday/oneday_02_image02_pc.png')}}" alt="">
+                                            <img class="sizes" src="{{asset('images/contentBox/oneday/oneday_02_image02_pc.png')}}" alt="受入作業の写真">
                                         </picture>
                                     </div>
                                 </li>
@@ -235,7 +235,7 @@
                                         <picture class="image">
                                             <source media="(max-width: 767px)" srcset="{{asset('images/contentBox/oneday/oneday_02_image03_sp.png')}} 2x">
                                             <source media="(min-width: 768px)" srcset="{{asset('images/contentBox/oneday/oneday_02_image03_pc.png')}} 2x">
-                                            <img class="sizes" src="{{asset('images/contentBox/oneday/oneday_02_image03_pc.png')}}" alt="">
+                                            <img class="sizes" src="{{asset('images/contentBox/oneday/oneday_02_image03_pc.png')}}" alt="在庫管理グループのメンバーの写真">
                                         </picture>
                                     </div>
                                 </li>
@@ -252,7 +252,7 @@
                                         <picture class="image">
                                             <source media="(max-width: 767px)" srcset="{{asset('images/contentBox/oneday/oneday_02_image04_sp.png')}} 2x">
                                             <source media="(min-width: 768px)" srcset="{{asset('images/contentBox/oneday/oneday_02_image04_pc.png')}} 2x">
-                                            <img class="sizes" src="{{asset('images/contentBox/oneday/oneday_02_image04_pc.png')}}" alt="">
+                                            <img class="sizes" src="{{asset('images/contentBox/oneday/oneday_02_image04_pc.png')}}" alt="発注作業の写真">
                                         </picture>
                                     </div>
                                 </li>
@@ -263,7 +263,7 @@
                                         <picture class="image">
                                             <source media="(max-width: 767px)" srcset="{{asset('images/contentBox/oneday/oneday_02_image05_sp.png')}} 2x">
                                             <source media="(min-width: 768px)" srcset="{{asset('images/contentBox/oneday/oneday_02_image05_pc.png')}} 2x">
-                                            <img class="sizes" src="{{asset('images/contentBox/oneday/oneday_02_image05_pc.png')}}" alt="">
+                                            <img class="sizes" src="{{asset('images/contentBox/oneday/oneday_02_image05_pc.png')}}" alt="入庫管理作業の写真">
                                         </picture>
                                     </div>
                                 </li>

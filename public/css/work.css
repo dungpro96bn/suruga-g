@@ -113,6 +113,10 @@
 #work-page .movie .movieContent{
     text-align: center;
 }
+#work-page .movie .movieContent .image{
+    max-width: 960px;
+    margin: auto;
+}
 
 
 

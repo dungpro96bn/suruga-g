@@ -35,21 +35,21 @@
                                 <picture class="image">
                                     <source media="(max-width: 767px)" srcset="{{asset('images/contentBox/welfare/welfare_image01_sp.png')}} 2x">
                                     <source media="(min-width: 768px)" srcset="{{asset('images/contentBox/welfare/welfare_image01_pc.png')}} 2x">
-                                    <img class="sizes" src="{{asset('images/contentBox/welfare/welfare_image01_pc.png')}}" alt="">
+                                    <img class="sizes" src="{{asset('images/contentBox/welfare/welfare_image01_pc.png')}}" alt="話している従業員">
                                 </picture>
                             </li>
                             <li class="welfareImage-item">
                                 <picture class="image">
                                     <source media="(max-width: 767px)" srcset="{{asset('images/contentBox/welfare/welfare_image02_sp.png')}} 2x">
                                     <source media="(min-width: 768px)" srcset="{{asset('images/contentBox/welfare/welfare_image02_pc.png')}} 2x">
-                                    <img class="sizes" src="{{asset('images/contentBox/welfare/welfare_image02_pc.png')}}" alt="">
+                                    <img class="sizes" src="{{asset('images/contentBox/welfare/welfare_image02_pc.png')}}" alt="従業員の笑顔写真">
                                 </picture>
                             </li>
                             <li class="welfareImage-item">
                                 <picture class="image">
                                     <source media="(max-width: 767px)" srcset="{{asset('images/contentBox/welfare/welfare_image03_sp.png')}} 2x">
                                     <source media="(min-width: 768px)" srcset="{{asset('images/contentBox/welfare/welfare_image03_pc.png')}} 2x">
-                                    <img class="sizes" src="{{asset('images/contentBox/welfare/welfare_image03_pc.png')}}" alt="">
+                                    <img class="sizes" src="{{asset('images/contentBox/welfare/welfare_image03_pc.png')}}" alt="従業員の様子写真">
                                 </picture>
                             </li>
                         </ul>
@@ -64,10 +64,10 @@
                             <span class="ttl-ja">動画で知るサクセスストーリー</span>
                         </h2>
                         <div class="movieContent js-fadein">
-                            <picture class="image">
-                                <source srcset="{{asset('images/contentBox/welfare/welfare_image04_pc.png')}} 2x">
-                                <img class="sizes" src="{{asset('images/contentBox/welfare/welfare_image04_pc.png')}}" alt="">
-                            </picture>
+                            <div class="image">
+                                <script type="text/javascript">var Eviry=Eviry||{};Eviry.Player||(Eviry.Player={});Eviry.Player.embedkey="EK1d-n8AByQmR9VSq2rwhKAvP-hJZe0STFHebOiYuxH__7JQxQ5drFonY5Bv7VvXJrvQtzlW6ISlTo_qlnOkv7oqoVFeTfuvbLj3L1sbHCgc_jFzl8NJM7JuQ..";</script>
+                                <script type="text/javascript" src="https://d1euehvbqdc1n9.cloudfront.net/001/eviry/js/eviry.player.min.js"></script>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -78,7 +78,7 @@
                             <picture class="ttl-icon">
                                 <source media="(max-width: 767px)" srcset="{{asset('images/contentBox/welfare/welfare_title_01_icon_sp.png')}} 2x">
                                 <source media="(min-width: 768px)" srcset="{{asset('images/contentBox/welfare/welfare_title_01_icon_pc.png')}} 2x">
-                                <img class="sizes" src="{{asset('images/contentBox/welfare/welfare_title_01_icon_pc.png')}}" alt="">
+                                <img class="sizes" src="{{asset('images/contentBox/welfare/welfare_title_01_icon_pc.png')}}" alt="豚のアイコン">
                             </picture>
                             <div class="info-title">
                                 <span class="ttl-en pop">For Your Future</span>
@@ -90,16 +90,16 @@
                                 <picture class="icon">
                                     <source media="(max-width: 767px)" srcset="{{asset('images/contentBox/welfare/welfare_01_01_icon_sp.png')}} 2x">
                                     <source media="(min-width: 768px)" srcset="{{asset('images/contentBox/welfare/welfare_01_01_icon_pc.png')}} 2x">
-                                    <img class="sizes" src="{{asset('images/contentBox/welfare/welfare_01_01_icon_pc.png')}}" alt="">
+                                    <img class="sizes" src="{{asset('images/contentBox/welfare/welfare_01_01_icon_pc.png')}}" alt="コインのアイコン">
                                 </picture>
                                 <p class="ttl">財形貯蓄制度</p>
-                                <p class="text">給料やボーナスから天引きして積立てる貯蓄です。<br/>「一般財形」「住宅財形」「年金財形」3つのコースがあります。</p>
+                                <p class="text">給料やボーナスから天引きして積み立てる貯蓄です。<br/>「一般財形」「住宅財形」「年金財形」3つのコースがあります。</p>
                             </li>
                             <li class="welfareItem-info js-fadein">
                                 <picture class="icon">
                                     <source media="(max-width: 767px)" srcset="{{asset('images/contentBox/welfare/welfare_01_02_icon_sp.png')}} 2x">
                                     <source media="(min-width: 768px)" srcset="{{asset('images/contentBox/welfare/welfare_01_02_icon_pc.png')}} 2x">
-                                    <img class="sizes" src="{{asset('images/contentBox/welfare/welfare_01_02_icon_pc.png')}}" alt="">
+                                    <img class="sizes" src="{{asset('images/contentBox/welfare/welfare_01_02_icon_pc.png')}}" alt="ビールのアイコン">
                                 </picture>
                                 <p class="ttl">社員持株会制度</p>
                                 <p class="text">従業員持株会の会員になることで、少額資金を継続的に拠出することにより、ミスミグループ本社の株式を容易に取得できます。</p>
@@ -108,7 +108,7 @@
                                 <picture class="icon">
                                     <source media="(max-width: 767px)" srcset="{{asset('images/contentBox/welfare/welfare_01_03_icon_sp.png')}} 2x">
                                     <source media="(min-width: 768px)" srcset="{{asset('images/contentBox/welfare/welfare_01_03_icon_pc.png')}} 2x">
-                                    <img class="sizes" src="{{asset('images/contentBox/welfare/welfare_01_03_icon_pc.png')}}" alt="">
+                                    <img class="sizes" src="{{asset('images/contentBox/welfare/welfare_01_03_icon_pc.png')}}" alt="ちびのアイコン">
                                 </picture>
                                 <p class="ttl">生命保険団体契約</p>
                                 <p class="text">会社が契約者となり、役員・従業員を被保険者（保険の対象となる方）とする契約で、一般の生命保険より保険料が安くなります。</p>
@@ -117,7 +117,7 @@
                                 <picture class="icon">
                                     <source media="(max-width: 767px)" srcset="{{asset('images/contentBox/welfare/welfare_01_04_icon_sp.png')}} 2x">
                                     <source media="(min-width: 768px)" srcset="{{asset('images/contentBox/welfare/welfare_01_04_icon_pc.png')}} 2x">
-                                    <img class="sizes" src="{{asset('images/contentBox/welfare/welfare_01_04_icon_pc.png')}}" alt="">
+                                    <img class="sizes" src="{{asset('images/contentBox/welfare/welfare_01_04_icon_pc.png')}}" alt="花のアイコン">
                                 </picture>
                                 <p class="ttl">退職金制度</p>
                                 <p class="text">【正社員】<br/>
@@ -135,7 +135,7 @@
                             <picture class="ttl-icon">
                                 <source media="(max-width: 767px)" srcset="{{asset('images/contentBox/welfare/welfare_title_02_icon_sp.png')}} 2x">
                                 <source media="(min-width: 768px)" srcset="{{asset('images/contentBox/welfare/welfare_title_02_icon_pc.png')}} 2x">
-                                <img class="sizes" src="{{asset('images/contentBox/welfare/welfare_title_02_icon_pc.png')}}" alt="">
+                                <img class="sizes" src="{{asset('images/contentBox/welfare/welfare_title_02_icon_pc.png')}}" alt="ハートのアイコン">
                             </picture>
                             <div class="info-title">
                                 <span class="ttl-en pop">For Your Health</span>
@@ -147,7 +147,7 @@
                                 <picture class="icon">
                                     <source media="(max-width: 767px)" srcset="{{asset('images/contentBox/welfare/welfare_02_01_icon_sp.png')}} 2x">
                                     <source media="(min-width: 768px)" srcset="{{asset('images/contentBox/welfare/welfare_02_01_icon_pc.png')}} 2x">
-                                    <img class="sizes" src="{{asset('images/contentBox/welfare/welfare_02_01_icon_pc.png')}}" alt="">
+                                    <img class="sizes" src="{{asset('images/contentBox/welfare/welfare_02_01_icon_pc.png')}}" alt="健康診断">
                                 </picture>
                                 <p class="ttl">定期健康診断・特殊検診</p>
                                 <p class="text">常時雇用されている従業員に対し、所定の項目について医師による定期健康診断を毎年実施しています。また、一定の有害な業務に従事する従業員に対しては、特殊健康診断を実施しています。</p>
@@ -156,7 +156,7 @@
                                 <picture class="icon">
                                     <source media="(max-width: 767px)" srcset="{{asset('images/contentBox/welfare/welfare_02_02_icon_sp.png')}} 2x">
                                     <source media="(min-width: 768px)" srcset="{{asset('images/contentBox/welfare/welfare_02_02_icon_pc.png')}} 2x">
-                                    <img class="sizes" src="{{asset('images/contentBox/welfare/welfare_02_02_icon_pc.png')}}" alt="">
+                                    <img class="sizes" src="{{asset('images/contentBox/welfare/welfare_02_02_icon_pc.png')}}" alt="接種のアイコン">
                                 </picture>
                                 <p class="ttl">インフルエンザ予防接種</p>
                                 <p class="text">インフルエンザ予防接種の希望者は、インフルエンザ予防接種を無償で受けることができます。</p>
@@ -165,7 +165,7 @@
                                 <picture class="icon">
                                     <source media="(max-width: 767px)" srcset="{{asset('images/contentBox/welfare/welfare_02_03_icon_sp.png')}} 2x">
                                     <source media="(min-width: 768px)" srcset="{{asset('images/contentBox/welfare/welfare_02_03_icon_pc.png')}} 2x">
-                                    <img class="sizes" src="{{asset('images/contentBox/welfare/welfare_02_03_icon_pc.png')}}" alt="">
+                                    <img class="sizes" src="{{asset('images/contentBox/welfare/welfare_02_03_icon_pc.png')}}" alt="表のアイコン">
                                 </picture>
                                 <p class="ttl">人間ドック・がん検診等の<br/>
                                     補助金制度</p>
@@ -181,7 +181,7 @@
                             <picture class="ttl-icon">
                                 <source media="(max-width: 767px)" srcset="{{asset('images/contentBox/welfare/welfare_title_03_icon_sp.png')}} 2x">
                                 <source media="(min-width: 768px)" srcset="{{asset('images/contentBox/welfare/welfare_title_03_icon_pc.png')}} 2x">
-                                <img class="sizes" src="{{asset('images/contentBox/welfare/welfare_title_03_icon_pc.png')}}" alt="">
+                                <img class="sizes" src="{{asset('images/contentBox/welfare/welfare_title_03_icon_pc.png')}}" alt="階段のアイコン">
                             </picture>
                             <div class="info-title">
                                 <span class="ttl-en pop">For Your Career Up</span>
@@ -193,7 +193,7 @@
                                 <picture class="icon">
                                     <source media="(max-width: 767px)" srcset="{{asset('images/contentBox/welfare/welfare_03_01_icon_sp.png')}} 2x">
                                     <source media="(min-width: 768px)" srcset="{{asset('images/contentBox/welfare/welfare_03_01_icon_pc.png')}} 2x">
-                                    <img class="sizes" src="{{asset('images/contentBox/welfare/welfare_03_01_icon_pc.png')}}" alt="">
+                                    <img class="sizes" src="{{asset('images/contentBox/welfare/welfare_03_01_icon_pc.png')}}" alt="カップのアイコン">
                                 </picture>
                                 <p class="ttl ttl-small">各種表彰制度<br/>
                                     特殊奨励金・社長賞・永年勤続表彰等</p>
@@ -203,7 +203,7 @@
                                 <picture class="icon">
                                     <source media="(max-width: 767px)" srcset="{{asset('images/contentBox/welfare/welfare_03_02_icon_sp.png')}} 2x">
                                     <source media="(min-width: 768px)" srcset="{{asset('images/contentBox/welfare/welfare_03_02_icon_pc.png')}} 2x">
-                                    <img class="sizes" src="{{asset('images/contentBox/welfare/welfare_03_02_icon_pc.png')}}" alt="">
+                                    <img class="sizes" src="{{asset('images/contentBox/welfare/welfare_03_02_icon_pc.png')}}" alt="ノートのアイコン">
                                 </picture>
                                 <p class="ttl">教育研修費用補助制度</p>
                                 <p class="text">社員の自己啓発による能力開発とスキルの向上を支援し、一定の資金を援助します。</p>
@@ -212,7 +212,7 @@
                                 <picture class="icon">
                                     <source media="(max-width: 767px)" srcset="{{asset('images/contentBox/welfare/welfare_03_03_icon_sp.png')}} 2x">
                                     <source media="(min-width: 768px)" srcset="{{asset('images/contentBox/welfare/welfare_03_03_icon_pc.png')}} 2x">
-                                    <img class="sizes" src="{{asset('images/contentBox/welfare/welfare_03_03_icon_pc.png')}}" alt="">
+                                    <img class="sizes" src="{{asset('images/contentBox/welfare/welfare_03_03_icon_pc.png')}}" alt="資格のアイコン">
                                 </picture>
                                 <p class="ttl">資格取得支援制度</p>
                                 <p class="text">会社が指定する公的資格について社員の取得を支援し、一定の資金を援助します。</p>
@@ -227,7 +227,7 @@
                             <picture class="ttl-icon">
                                 <source media="(max-width: 767px)" srcset="{{asset('images/contentBox/welfare/welfare_title_04_icon_sp.png')}} 2x">
                                 <source media="(min-width: 768px)" srcset="{{asset('images/contentBox/welfare/welfare_title_04_icon_pc.png')}} 2x">
-                                <img class="sizes" src="{{asset('images/contentBox/welfare/welfare_title_04_icon_pc.png')}}" alt="">
+                                <img class="sizes" src="{{asset('images/contentBox/welfare/welfare_title_04_icon_pc.png')}}" alt="旅行のアイコン">
                             </picture>
                             <div class="info-title">
                                 <span class="ttl-en pop">For Your Pleasure</span>
@@ -239,7 +239,7 @@
                                 <picture class="icon">
                                     <source media="(max-width: 767px)" srcset="{{asset('images/contentBox/welfare/welfare_04_01_icon_sp.png')}} 2x">
                                     <source media="(min-width: 768px)" srcset="{{asset('images/contentBox/welfare/welfare_04_01_icon_pc.png')}} 2x">
-                                    <img class="sizes" src="{{asset('images/contentBox/welfare/welfare_04_01_icon_pc.png')}}" alt="">
+                                    <img class="sizes" src="{{asset('images/contentBox/welfare/welfare_04_01_icon_pc.png')}}" alt="ベッドのアイコン">
                                 </picture>
                                 <p class="ttl">誕生日休暇</p>
                                 <p class="text">本人の誕生日に、誕生日休暇を取得できます。<br/>
@@ -249,7 +249,7 @@
                                 <picture class="icon">
                                     <source media="(max-width: 767px)" srcset="{{asset('images/contentBox/welfare/welfare_04_02_icon_sp.png')}} 2x">
                                     <source media="(min-width: 768px)" srcset="{{asset('images/contentBox/welfare/welfare_04_02_icon_pc.png')}} 2x">
-                                    <img class="sizes" src="{{asset('images/contentBox/welfare/welfare_04_02_icon_pc.png')}}" alt="">
+                                    <img class="sizes" src="{{asset('images/contentBox/welfare/welfare_04_02_icon_pc.png')}}" alt="ディズニーのアイコン">
                                 </picture>
                                 <p class="ttl">ラフォーレ俱楽部<br/>
                                     優待サービスと補助金制度</p>
@@ -263,7 +263,7 @@
                                     <img class="sizes" src="{{asset('images/contentBox/welfare/welfare_04_03_icon_pc.png')}}" alt="">
                                 </picture>
                                 <p class="ttl">ディズニーリゾート補助制度</p>
-                                <p class="text">東京ディズニーランド・東京ディズニーシーのパークチケット購入時、ディズニーホテル宿泊時に使用できるコーポーレートプログラム利用券を、年度ごとに1人当たり8枚まで配布します。</p>
+                                <p class="text">東京ディズニーランド・東京ディズニーシーのパークチケット購入時、ディズニーホテル宿泊時に使用できるコーポレートプログラム利用券を、年度ごとに1人当たり8枚まで配布します。</p>
                             </li>
                         </ul>
                     </div>

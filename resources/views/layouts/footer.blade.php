@@ -131,7 +131,7 @@ if(isset($frontendSettings['footer']['corpInfo']['type']) || isset($frontendSett
                 </ul>
                 <ul class="company-footer">
                     <li class="img-company">
-                        <a href="#">
+                        <a target="_blank" href="https://dev.tenriku.jp/misumi-kansai-park/">
                             <picture class="image">
                                 <source media="(max-width: 767px)" srcset="{{asset('images/contentBox/footer_img01_sp.png')}} 2x">
                                 <source media="(min-width: 768px)" srcset="{{asset('images/contentBox/footer_img01_pc.png')}} 2x">

@@ -140,14 +140,17 @@
 #welFare-page .movie .movieContent{
     text-align: center;
 }
-
+#welFare-page .movie .movieContent .image{
+    max-width: 960px;
+    margin: auto;
+}
 
 
 /*welfare-block*/
 #welFare-page .welfare-block{
     padding-top: 100px;
     background: #E4E4E6;
-    padding-bottom: 100px;
+    padding-bottom: 170px;
 }
 #welFare-page .welfare-block.welfare-bg {
     background: #3591FF;
@@ -294,7 +297,6 @@
     /*welfare-block*/
     #welFare-page .welfare-block{
         padding-top: 50px;
-        padding-bottom: 74px;
     }
     #welFare-page .welfare-block .inner{
         padding: 0 30px;

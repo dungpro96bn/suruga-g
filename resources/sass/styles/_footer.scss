@@ -183,7 +183,7 @@ footer
     .footerCorpInfo {
         display: flex;
         flex-direction: column;
-        padding-top: 47px;
+        padding-top: 32px;
         @include minWidthXs {
             width: 50%;
             //align-self: flex-start;

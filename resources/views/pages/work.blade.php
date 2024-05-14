@@ -35,28 +35,28 @@
                                 <picture class="image">
                                     <source media="(max-width: 767px)" srcset="{{asset('images/contentBox/work/work_image01_sp.png')}} 2x">
                                     <source media="(min-width: 768px)" srcset="{{asset('images/contentBox/work/work_image01_pc.png')}} 2x">
-                                    <img class="sizes" src="{{asset('images/contentBox/work/work_image01_pc.png')}}" alt="">
+                                    <img class="sizes" src="{{asset('images/contentBox/work/work_image01_pc.png')}}" alt="部品検査の写真">
                                 </picture>
                             </li>
                             <li class="workImage-item js-fadein js-fadein">
                                 <picture class="image">
                                     <source media="(max-width: 767px)" srcset="{{asset('images/contentBox/work/work_image02_sp.png')}} 2x">
                                     <source media="(min-width: 768px)" srcset="{{asset('images/contentBox/work/work_image02_pc.png')}} 2x">
-                                    <img class="sizes" src="{{asset('images/contentBox/work/work_image02_pc.png')}}" alt="">
+                                    <img class="sizes" src="{{asset('images/contentBox/work/work_image02_pc.png')}}" alt="ミーティングの写真">
                                 </picture>
                             </li>
                             <li class="workImage-item js-fadein js-fadein">
                                 <picture class="image">
                                     <source media="(max-width: 767px)" srcset="{{asset('images/contentBox/work/work_image03_sp.png')}} 2x">
                                     <source media="(min-width: 768px)" srcset="{{asset('images/contentBox/work/work_image03_pc.png')}} 2x">
-                                    <img class="sizes" src="{{asset('images/contentBox/work/work_image03_pc.png')}}" alt="">
+                                    <img class="sizes" src="{{asset('images/contentBox/work/work_image03_pc.png')}}" alt="従業員の写真">
                                 </picture>
                             </li>
                             <li class="workImage-item js-fadein js-fadein">
                                 <picture class="image">
                                     <source media="(max-width: 767px)" srcset="{{asset('images/contentBox/work/work_image04_sp.png')}} 2x">
                                     <source media="(min-width: 768px)" srcset="{{asset('images/contentBox/work/work_image04_pc.png')}} 2x">
-                                    <img class="sizes" src="{{asset('images/contentBox/work/work_image04_pc.png')}}" alt="">
+                                    <img class="sizes" src="{{asset('images/contentBox/work/work_image04_pc.png')}}" alt="図面作成している社員">
                                 </picture>
                             </li>
                         </ul>
@@ -128,10 +128,10 @@
                             <span class="ttl-ja">動画で知る部門紹介</span>
                         </h2>
                         <div class="movieContent js-fadein">
-                            <picture class="image">
-                                <source srcset="{{asset('images/contentBox/welfare/welfare_image04_pc.png')}} 2x">
-                                <img class="sizes" src="{{asset('images/contentBox/welfare/welfare_image04_pc.png')}}" alt="">
-                            </picture>
+                            <div class="image">
+                                <script type="text/javascript">var Eviry=Eviry||{};Eviry.Player||(Eviry.Player={});Eviry.Player.embedkey="EK1MQBGRrcAmXOdJfm87DnxFsJbsSlKf9Ao_YBWcl09L1Z909bYM6OxSQ3jrFHOpQZ5YD0_qesFK3oYnb2bM4zZ-jQ5NjKlJpaShH6rd4BpCmTzr9oLq5l_7g..";</script>
+                                <script type="text/javascript" src="https://d1euehvbqdc1n9.cloudfront.net/001/eviry/js/eviry.player.min.js"></script>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -149,7 +149,7 @@
                                 <picture class="image">
                                     <source media="(max-width: 767px)" srcset="{{asset('images/contentBox/work/work_01_image01_sp.png')}} 2x">
                                     <source media="(min-width: 768px)" srcset="{{asset('images/contentBox/work/work_01_image01_pc.png')}} 2x">
-                                    <img class="sizes" src="{{asset('images/contentBox/work/work_01_image01_pc.png')}}" alt="">
+                                    <img class="sizes" src="{{asset('images/contentBox/work/work_01_image01_pc.png')}}" alt="部品検査の写真">
                                 </picture>
                             </div>
                         </div>
@@ -163,19 +163,19 @@
                                </div>
                                 <div class="work-info js-fadein">
                                     <h3 class="title">圧倒的な量産体制確立、<br class="sp-br"/>世界中の生産ラインを下支えする<br class="sp-br"/>ものづくり</h3>
-                                    <p class="text">IM製造部は、FA（Factory Automation=ファクトリー・オートメーション：生産工程の自動化）など自動化関連部品の製造を担っています。あらゆる工場において、その構築の成否が競争力に直結するFA。IMユニットでは、そうした生産ラインを支える様々な部品を量産しています。<br/>主に、連結部品の支柱（円形・六角・四角）、機構部品の回転軸を製造、1日当たり10,000本を超える生産アウトプットを保持しています。培ってきた技術力の上に、デジタル、ICTを駆使し、継続的な進化を遂げています。各種追加工、鍍金ユニットでの表面処理にも対応しており、お客様のニーズに合わせた高品質、且つ確実短納期の量産体制は、グローバルスタンダードとして、世界各国に展開しています。</p>
+                                    <p class="text">IM製造部は、FA（Factory Automation=ファクトリー・オートメーション：生産工程の自動化）など自動化関連部品の製造を担っています。あらゆる工場において、その構築の成否が競争力に直結するFA。IMユニットでは、そうした生産ラインを支える様々な部品を量産しています。<br/>主に、連結部品の支柱（円形・六角・四角）、機構部品の回転軸を製造、1日当たり10,000本を超える生産アウトプットを保持しています。培ってきた技術力の上に、デジタル、ICTを駆使し、継続的な進化を遂げています。各種追加工、鍍金ユニットでの表面処理にも対応しており、お客様のニーズに合わせた高品質、かつ確実短納期の量産体制は、グローバルスタンダードとして、世界各国に展開しています。</p>
                                 </div>
                             </div>
                             <div class="workImage-list">
                                 <picture class="workImage-item js-fadein">
                                     <source media="(max-width: 767px)" srcset="{{asset('images/contentBox/work/work_01_image02_sp.png')}} 2x">
                                     <source media="(min-width: 768px)" srcset="{{asset('images/contentBox/work/work_01_image02_pc.png')}} 2x">
-                                    <img class="sizes" src="{{asset('images/contentBox/work/work_01_image02_pc.png')}}" alt="">
+                                    <img class="sizes" src="{{asset('images/contentBox/work/work_01_image02_pc.png')}}" alt="仕事中の写真">
                                 </picture>
                                 <picture class="workImage-item js-fadein">
                                     <source media="(max-width: 767px)" srcset="{{asset('images/contentBox/work/work_01_image03_sp.png')}} 2x">
                                     <source media="(min-width: 768px)" srcset="{{asset('images/contentBox/work/work_01_image03_pc.png')}} 2x">
-                                    <img class="sizes" src="{{asset('images/contentBox/work/work_01_image03_pc.png')}}" alt="">
+                                    <img class="sizes" src="{{asset('images/contentBox/work/work_01_image03_pc.png')}}" alt="品質チェックの写真">
                                 </picture>
                             </div>
                         </div>
@@ -195,7 +195,7 @@
                                 <picture class="image">
                                     <source media="(max-width: 767px)" srcset="{{asset('images/contentBox/work/work_02_image01_sp.png')}} 2x">
                                     <source media="(min-width: 768px)" srcset="{{asset('images/contentBox/work/work_02_image01_pc.png')}} 2x">
-                                    <img class="sizes" src="{{asset('images/contentBox/work/work_02_image01_pc.png')}}" alt="">
+                                    <img class="sizes" src="{{asset('images/contentBox/work/work_02_image01_pc.png')}}" alt="ミーティングの写真">
                                 </picture>
                             </div>
                         </div>
@@ -205,25 +205,25 @@
                             <div class="work-description">
                                 <div class="work-info js-fadein">
                                     <h3 class="title">金型に組付けられる<br class="sp-br"/>パンチ・ブッシュ等部品を<br class="sp-br"/>自動機・汎用機を使い製造</h3>
-                                    <p class="text">数年の現場勤務を経験しものづくりや製品に関する知識を身につけた後、製造間接部門にて生産管理、品質管理、在庫管理など業務を習得していただきます。　</p>
+                                    <p class="text">数年の現場勤務を経験しものづくりや製品に関する知識を身につけた後、製造間接部門にて生産管理・品質管理・在庫管理など業務を習得していただきます。　</p>
                                 </div>
                                 <div class="work-info js-fadein">
                                     <h3 class="title">磨き込まれた<br class="sp-br"/>「精密加工技術」のものづくり</h3>
                                     <p class="text">金型製造部は、自動車や電子・電気機器などの金型用部品製造を担っています。身の回りにある多くのプラスチック製品は、金型（モールド）に流し込む射出成形で加工されます。</p>
                                     <p class="text">プレスユニットでは、金型成型に使用するパンチ＆ダイの国内トップクラスシェアを有し、半世紀を超え、精密加工技術（切削・研削・研磨）を培ってきた当社の土台です。</p>
-                                    <p class="text">モールドユニットでは、主要部品となるコアピン、エジェクターピンなどを製造しており、世界各国の金型製造業、成形加工業を、幅広く縁の下で支えています。<br/>ミクロン単位の精度で、高品質な製品を、且つ短納期でお客様のニーズに対応しています。</p>
+                                    <p class="text">モールドユニットでは、主要部品となるコアピン、エジェクターピンなどを製造しており、世界各国の金型製造業、成形加工業を、幅広く縁の下で支えています。<br/>ミクロン単位の精度で、高品質な製品を、かつ短納期でお客様のニーズに対応しています。</p>
                                 </div>
                             </div>
                             <div class="workImage-list">
                                 <picture class="workImage-item js-fadein">
                                     <source media="(max-width: 767px)" srcset="{{asset('images/contentBox/work/work_02_image02_sp.png')}} 2x">
                                     <source media="(min-width: 768px)" srcset="{{asset('images/contentBox/work/work_02_image02_pc.png')}} 2x">
-                                    <img class="sizes" src="{{asset('images/contentBox/work/work_02_image02_pc.png')}}" alt="">
+                                    <img class="sizes" src="{{asset('images/contentBox/work/work_02_image02_pc.png')}}" alt="機械操作の写真">
                                 </picture>
                                 <picture class="workImage-item js-fadein">
                                     <source media="(max-width: 767px)" srcset="{{asset('images/contentBox/work/work_02_image03_sp.png')}} 2x">
                                     <source media="(min-width: 768px)" srcset="{{asset('images/contentBox/work/work_02_image03_pc.png')}} 2x">
-                                    <img class="sizes" src="{{asset('images/contentBox/work/work_02_image03_pc.png')}}" alt="">
+                                    <img class="sizes" src="{{asset('images/contentBox/work/work_02_image03_pc.png')}}" alt="機械設定の写真">
                                 </picture>
                             </div>
                         </div>
@@ -243,7 +243,7 @@
                                 <picture class="image">
                                     <source media="(max-width: 767px)" srcset="{{asset('images/contentBox/work/work_03_image01_sp.png')}} 2x">
                                     <source media="(min-width: 768px)" srcset="{{asset('images/contentBox/work/work_03_image01_pc.png')}} 2x">
-                                    <img class="sizes" src="{{asset('images/contentBox/work/work_03_image01_pc.png')}}" alt="">
+                                    <img class="sizes" src="{{asset('images/contentBox/work/work_03_image01_pc.png')}}" alt="従業員の顔の写真">
                                 </picture>
                             </div>
                         </div>
@@ -267,12 +267,12 @@
                                 <picture class="workImage-item js-fadein">
                                     <source media="(max-width: 767px)" srcset="{{asset('images/contentBox/work/work_03_image02_sp.png')}} 2x">
                                     <source media="(min-width: 768px)" srcset="{{asset('images/contentBox/work/work_03_image02_pc.png')}} 2x">
-                                    <img class="sizes" src="{{asset('images/contentBox/work/work_03_image02_pc.png')}}" alt="">
+                                    <img class="sizes" src="{{asset('images/contentBox/work/work_03_image02_pc.png')}}" alt="パソコンで作業している">
                                 </picture>
                                 <picture class="workImage-item js-fadein">
                                     <source media="(max-width: 767px)" srcset="{{asset('images/contentBox/work/work_03_image03_sp.png')}} 2x">
                                     <source media="(min-width: 768px)" srcset="{{asset('images/contentBox/work/work_03_image03_pc.png')}} 2x">
-                                    <img class="sizes" src="{{asset('images/contentBox/work/work_03_image03_pc.png')}}" alt="">
+                                    <img class="sizes" src="{{asset('images/contentBox/work/work_03_image03_pc.png')}}" alt="女性社員の写真">
                                 </picture>
                             </div>
                         </div>
@@ -292,7 +292,7 @@
                                 <picture class="image">
                                     <source media="(max-width: 767px)" srcset="{{asset('images/contentBox/work/work_04_image01_sp.png')}} 2x">
                                     <source media="(min-width: 768px)" srcset="{{asset('images/contentBox/work/work_04_image01_pc.png')}} 2x">
-                                    <img class="sizes" src="{{asset('images/contentBox/work/work_04_image01_pc.png')}}" alt="">
+                                    <img class="sizes" src="{{asset('images/contentBox/work/work_04_image01_pc.png')}}" alt="パソコンで作業している社員">
                                 </picture>
                             </div>
                         </div>
@@ -309,12 +309,12 @@
                                 <picture class="workImage-item js-fadein">
                                     <source media="(max-width: 767px)" srcset="{{asset('images/contentBox/work/work_04_image02_sp.png')}} 2x">
                                     <source media="(min-width: 768px)" srcset="{{asset('images/contentBox/work/work_04_image02_pc.png')}} 2x">
-                                    <img class="sizes" src="{{asset('images/contentBox/work/work_04_image02_pc.png')}}" alt="">
+                                    <img class="sizes" src="{{asset('images/contentBox/work/work_04_image02_pc.png')}}" alt="電話で連絡している社員">
                                 </picture>
                                 <picture class="workImage-item js-fadein">
                                     <source media="(max-width: 767px)" srcset="{{asset('images/contentBox/work/work_04_image03_sp.png')}} 2x">
                                     <source media="(min-width: 768px)" srcset="{{asset('images/contentBox/work/work_04_image03_pc.png')}} 2x">
-                                    <img class="sizes" src="{{asset('images/contentBox/work/work_04_image03_pc.png')}}" alt="">
+                                    <img class="sizes" src="{{asset('images/contentBox/work/work_04_image03_pc.png')}}" alt="部品チェックの写真">
                                 </picture>
                             </div>
                         </div>

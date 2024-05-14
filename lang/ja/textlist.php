@@ -22,4 +22,8 @@ return [
     'backDirectText' => '戻る',   //求人詳細
     'backSearchText' => '求人検索画面に戻る',   //求人詳細
 
+    'work'=>'部門紹介',
+    'oneday'=>'社員の1日',
+    'welfare'=>'福利厚生',
+
 ];
